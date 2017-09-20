@@ -5,6 +5,15 @@ body{
 	background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+header{
+	font-family: Raleway;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	padding: 20px 20px;
+	margin: 0;
+}
+
 h1 {
 	background: #66465b;
 	color: white;
@@ -72,7 +81,7 @@ input:focus{
 
 #container {
 	width: 360px;
-	margin: 200px auto;
+	margin: 20px auto;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
 	background: #f7f7f7;
 }
@@ -81,4 +90,28 @@ input:focus{
 	color:gray;
 	text-decoration: line-through;
 
+}
+
+#weather {
+  width: 400px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+	background: transparent;
+	margin: 0;
+	padding: 0px;
+	color: white;
+
+}
+
+#weather .currently {
 }
