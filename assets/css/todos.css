@@ -1,6 +1,6 @@
 body{
 	font-family: Raleway;
-	background: #F0C27B;  /* fallback for old browsers */
+	background: url("http://eskipaper.com/images/stunning-cosmos-wallpaper-1.jpg");  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -8,10 +8,11 @@ body{
 header{
 	font-family: Raleway;
 	color: white;
-	font-size: 40px;
+	font-size: 44px;
 	text-align: center;
 	padding: 20px 20px;
 	margin: 0;
+	opacity: 1.0;
 }
 
 h1 {
