@@ -116,5 +116,6 @@ input:focus{
 }
 ol{
 	list-style-type:none;
+	margin-left:-36px;
 }
 	
