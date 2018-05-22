@@ -114,3 +114,7 @@ input:focus{
 
 #weather .currently {
 }
+ol{
+	list-style-type:none;
+}
+	
